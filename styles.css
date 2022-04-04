@@ -4,3 +4,13 @@ body{background-color: black;}
 body{
     background-image:url(./4c3897a6-2aa7-47c3-9c2b-b482bb2353af.jpeg);
 }
+#modelodecaja{
+    width: 200px;
+    border: 5px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+#foto2{width: 40%; position: relative; left: 500px}
+#icono-sobre {
+    position: fixed; bottom: 20px; right: 20px;
+}
