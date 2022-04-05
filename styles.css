@@ -14,12 +14,7 @@ body{
 #icono-sobre {
     position: fixed; bottom: 20px; right: 20px;
 }
-header{
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0px;
-    background-color: grey;
-}
+
 #logo{
     width: 2%;
 }
@@ -34,5 +29,7 @@ footer{
     position: fixed;
     bottom:0px;
 }
+.col{border:1px solid white}
+.col-6{border: 1px solid white;}
 
 
