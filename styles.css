@@ -32,4 +32,13 @@ footer{
 .col{border:1px solid white}
 .col-6{border: 1px solid white;}
 
+table{border:1px solid white;}
+th{border:1px solid white;}
+td{border: 1px solid white;}
+
+@media screen and (max-width: 480px) {
+    body {
+        background-image: url(./foto\ alternativa.jpg);
+    }
+}
 
