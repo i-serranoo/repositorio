@@ -10,7 +10,29 @@ body{
     padding: 10px;
     margin: 10px;
 }
-#foto2{width: 40%; position: relative; left: 500px}
+#foto2{width: 40%;}
 #icono-sobre {
     position: fixed; bottom: 20px; right: 20px;
 }
+header{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    background-color: grey;
+}
+#logo{
+    width: 2%;
+}
+menu{
+    list-style: none;
+}
+menu>a>li{
+    display: inline;
+}
+
+footer{
+    position: fixed;
+    bottom:0px;
+}
+
+
