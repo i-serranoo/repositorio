@@ -1,0 +1,33 @@
+#titulo {text-align: center;
+    color: black;
+}
+#sub{text-align: center;
+color: black;}
+
+menu{background-color: black;}
+
+menu>a>li{
+    display: inline;
+    color:white
+}
+#col1{
+    float: left; 
+    width: 70%;
+}
+#col2{
+    float: right;
+    width: 30%;
+}
+
+
+.footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+  }
+
+
