@@ -140,3 +140,28 @@ costoTotal = cpstoTotal + servicio3;
 return costoTotal
 }
 mostrar(calcularCostos("limpieza de cutis", "uñas esculpidas", "semipermanente"))
+
+
+/* array: conjunto de valores
+variable: un espacio en memoria
+
+
+cantidad de elementos en el array n-1
+
+
+let profesor=["isa", 29, "profesor", true]
+console.log(profesor.length)
+for (let i=0; i<3; i++){
+    console.log(profesor[i])
+}
+
+profesor.push("el mejor")
+console.log(profesor)
+profesor.unshift("mutea la compu")
+console.log(profesor)
+
+.pop() ultima
+.shift() primero
+
+*/
+

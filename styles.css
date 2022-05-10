@@ -2,7 +2,7 @@ h1{color: rgb(59, 51, 51);}
 body{background-color: black;}
 *{color: black;}
 body{
-    background-image:url(./4c3897a6-2aa7-47c3-9c2b-b482bb2353af.jpeg);
+    background-color: white;
 }
 #modelodecaja{
     width: 200px;
@@ -10,6 +10,9 @@ body{
     padding: 10px;
     margin: 10px;
 }
+
+#foto1{width}
+
 #foto2{width: 40%;}
 #icono-sobre {
     position: fixed; bottom: 20px; right: 20px;
