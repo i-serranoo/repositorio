@@ -1,0 +1,108 @@
+h1{
+    color: (70,77,70);
+    font-size: 65px; 
+    font-family: "Consolas", sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    font-size: 40px;
+    font-family: "Consolas", sans-serif;
+    font-weight: normal;
+    text-align: right;
+    line-height: 70px;
+    color: black;
+}
+
+div {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+
+menu{background-color:black;
+    margin-top: 17%;
+    display: block;
+    width: auto;
+    height: 50px;
+    background-position: fixed;
+}
+    
+    menu>a>li{
+        display: inline;
+        color: white;
+        font-size: 23px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: normal;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+ #logo{
+     width: 2.75%;
+     margin-top: 7px;
+        }
+
+
+#Artistas{
+margin-left: 30px;
+font-size: 30px;
+}
+
+#tablaArtistas{
+    text-align:center;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 20px
+}
+
+#Klein{
+    width: 300px;
+}
+#Goldin{
+    width: 300px;
+}
+#Botero{
+    width: 300px;
+}
+#Kahlo{
+    width: 300px;
+}
+#Giacometti{
+    width: 300px;
+}
+#Abramovic{
+    width: 300px;
+}
+
+#malba1{
+    width: 300px;
+}
+#malba2{
+    width: 300px;
+}
+#malba3{
+    width: 350px;
+    margin-left: 0px;
+}
+#expomalba1{
+    float: left;
+    width: 23%;
+}
+#expomalba2{
+    float: right;
+    width: 47%;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+    body {
+        background-image: url(./abu\ dhabi.jpeg);
+    }
+}

@@ -22,8 +22,8 @@ let profesor ={ //object
     trabajando: true,
 }
 
-let alumnos=[{nombre: "manu", estado:"feliz", notaFinal:"10",}
-{nombre: "manu", estado:"feliz", notaFinal:"10",}
+let alumnos=[{nombre: "manu", estado:"feliz", notaFinal:"10",}, 
+{nombre: "manu", estado:"feliz", notaFinal:"10",},
 {nombre: "manu", estado:"feliz", notaFinal:"10",}
 ]
 profesroJSON= JSON.stringify(profesor)
@@ -33,6 +33,4 @@ alumnosJSON= JSON.stringify(alumnos)
 console.log(alumnos)
 console.log(alumnos[0])
 
-let jsonEscrito = {"nombre": "caro", "estado": "en proceso"}
-let objetoJson = JSON.stringify(objetocaro)
-console.log
+
