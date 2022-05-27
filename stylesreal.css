@@ -12,10 +12,17 @@ ul{
     text-align: right;
     line-height: 70px;
     color: black;
+    text-decoration: none;
+    text-shadow: none;
 }
 
-div {
-    position: -webkit-sticky; /* Safari */
+.principal a{
+    color: black;
+    text-decoration: none;
+}
+
+.menu{
+    position: -webkit-sticky; 
     position: sticky;
     top: 0;
   }
