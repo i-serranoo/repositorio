@@ -67,7 +67,7 @@ font-size: 30px;
 }
 
 .container {
-    position: relative;
+   position: relative;
     width: 50%;
   }
   
@@ -124,7 +124,7 @@ font-size: 30px;
     float:none;
     width: auto;
 }
-#malba{
+#tablamuseos{
     text-align: left;
     font-size: 20px;
     line-height: 40px;
@@ -133,19 +133,23 @@ font-size: 30px;
 }
 
 #mnba1{
+    margin-top: 50px;
     float: left;
     width: 50%;
+    margin-bottom: 100px;
 }
 #mnba2{
     float: right;
+    margin-top: 100px;
     width: 50%;
+    margin-right: 0px;
 }
 
 #ba1{
-    width: 300px;
+    width: 400px;
 }
 #ba2{
-    width: 300px;
+    width: 400px;
 }
 
 
