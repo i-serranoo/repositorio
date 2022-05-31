@@ -50,6 +50,9 @@ menu{background-color:black;
      margin-top: 7px;
         }
 
+html{
+    scroll-padding-top: 70px;
+}
 
 #Artistas{
 margin-left: 30px;
@@ -63,29 +66,46 @@ font-size: 30px;
     font-size: 20px
 }
 
-#Klein{
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+.image {
     width: 300px;
-}
-#Goldin{
-    width: 300px;
-}
-#Botero{
-    width: 300px;
-}
-#Kahlo{
-    width: 300px;
-}
-#Giacometti{
-    width: 300px;
-}
-#Abramovic{
-    width: 300px;
-}
+  }  
 
-#malba1{
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 300px;
     width: 300px;
-}
-#malba2{
+    opacity: 0;
+    transition: .5s ease;
+    background: rgb(0,0,0);
+    background: rgba(0,0,0,0.5);
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+#malba1,#malba2{
     width: 300px;
 }
 #malba3{
@@ -100,8 +120,33 @@ font-size: 30px;
     float: right;
     width: 47%;
 }
+#expomalba3{
+    float:none;
+    width: auto;
+}
+#malba{
+    text-align: left;
+    font-size: 20px;
+    line-height: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+}
 
+#mnba1{
+    float: left;
+    width: 50%;
+}
+#mnba2{
+    float: right;
+    width: 50%;
+}
 
+#ba1{
+    width: 300px;
+}
+#ba2{
+    width: 300px;
+}
 
 
 

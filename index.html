@@ -13,9 +13,9 @@
     }
     </style>
     <h1 id="allebasi">allebasi</h1> 
-    <div class="principal"><h2><ul>
+    <div class="principal"><h2><ul class="lista.menu">
          <a href="#Artistas"><li>Artistas</li></a> 
-         <a href="#Exposiciones"><li>Exposiciones</li></a>
+         <a href="#Museos"><li>Museos</li></a>
          <a href="#Nosotros"><li>Nosotros</li> </a>
          <a href="#Clases"><li>Clases</li></a>
          <a href="#Contacto"><li>Contacto </li></a>
@@ -24,10 +24,10 @@
         <div class="menu"><menu class="menu">
             <a style="margin-right: 16px;" href="#allebasi"><li><img src="./logo.jpg" alt="" id="logo"> </li></a>
             <a style="margin-right: 16px;" href="#Artistas"><li>Artistas</li></a> 
-            <a style="margin-right: 16px;" href="#Exposiciones"><li>Exposiciones</li></a> 
+            <a style="margin-right: 16px;" href="#Museos"><li>Museos</li></a> 
             <a style="margin-right: 16px;" href="#Nosotros"><li> Nosotros</li></a> 
-            <a style="margin-right: 16px;"href="#Clases"><li>Clases</li></a>
-            <a style="margin-right: 16px;"href="#Contacto"><li>Contacto</li></a>
+            <a style="margin-right: 16px;" href="#Clases"><li>Clases</li></a>
+            <a style="margin-right: 16px;" href="#Contacto"><li>Contacto</li></a>
         </menu>
     </div>
 
@@ -36,26 +36,62 @@
 <body>
 <h2 id="Artistas">Artistas</h2>
 <table id="tablaArtistas">
-    <tr><th> Yves Klein</th><th>Nan Goldin </th><th>Fernando Botero </th></tr>
-    <tr><td><img src="./Yves Klein.jpg" alt="" id="Klein"></td>
-    <td><img src="./Nan Goldin.jpg" alt="" id="Goldin"></td>
-    <td><img src="./Fernando Botero.jpg" alt="" id="Botero"></td>
-  </tr>
-  <tr><th>Frida Kahlo</th> <th>Alberto Giacometti</th> <th>Marina Abramović</th></tr>
-  <tr><td><img src="./Frida Kahlo.png" alt="" id="Kahlo"></td>
-  <td><img src="./ALberto Giacometti.jpg" alt="" id="Giacometti"></td>
-<td><img src="./Marina Abramovic.webp" alt="" id="Abramovic"></td></tr> 
-</table>
+    <td><div class="container">
+      <img src="./Yves Klein.jpg" alt="" class="image">
+      <div class="overlay">
+        <div class="text">Yves Klein</div>
+      </div>
+    </div></td>
+    <td><div class="container">
+      <img src="./Nan Goldin.jpg" alt="Avatar" class="image">
+      <div class="overlay">
+        <div class="text">Nan Goldin</div>
+      </div>
+    </div></td>
+    <td><div class="container">
+      <img src="./Fernando Botero.jpg" alt="" class="image">
+      <div class="overlay">
+        <div class="text">Fernando Botero</div>
+      </div>
+    </div></td>
+    <tr><td><div class="container">
+      <img src="./Frida Kahlo.png" alt="" class="image">
+      <div class="overlay">
+        <div class="text">Frida Khalo</div>
+      </div>
+    </div></td>
+    <td><div class="container">
+      <img src="./ALberto Giacometti.jpg" alt="" class="image">
+      <div class="overlay">
+        <div class="text">Alberto Giacometti</div>
+      </div>
+    </div></td>
+    <td><div class="container">
+      <img src="./Marina Abramovic.webp" alt="" class="image">
+      <div class="overlay">
+        <div class="text">Marina Abramovic</div>
+      </div>
+    </div></td></tr>
+  </table>
 
-<h2 id="Exposiciones">Exposiciones</h2>
+
+<h2 id="Museos">Museos</h2>
 <span id="expomalba1"><img src="./Malba 1.jpg" alt="" id="malba1"><br><img src="./malba 2.jpg" alt="" id="malba2"> </span>
 <span id="expomalba3"><img src="./malba3.jpg" alt="" id="malba3"></span>
 <span id="expomalba2">
    <h3> MALBA <br>
-    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere inventore porro ea assumenda, corporis eos sed, in eaque repudiandae quia nesciunt dolor quidem sit laborum ratione nihil quasi voluptatibus quo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptatem expedita beatae temporibus aut ut laboriosam! Voluptates quia debitis corrupti consectetur. Incidunt soluta ex deserunt laboriosam ducimus veritatis rerum in.
+<ul id="malba"><li>Museo de Arte Latinoamericano de Buenos Aires</li> <li>INFO DEL MALBA</li><li>Av. Figueroa Alcorta 3415</li> 
+    <li>C1425CLA</li> <li>Buenos Aires, Argentina</li> <li>+54 11 4808 6500</li> <li>informes@malba.org.ar</li>
+<li><a href="./Exposiciones.html">Exposiciones Disponibles</a><br></li></ul> 
+
 <a href="https://www.malba.org.ar/" target="_blank">Mas Informacion.</a>
 </h3> 
+<br>
+<span id="mnba1">
+    <h3>MUSEO NACIONAL DE BELLAS ARTES</h3><br>
+    <ul><li>INFO DEL MUSEO</li></ul>
 </span>
+<span id="mnba2"> <img src="./mnba.jpg" alt="" id="ba1"> <img src="./mnba2.jpg" alt="" id="ba2"></span>
 <br>
 
 <h2 id="Nosotros">Nosotros</h2>
