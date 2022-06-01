@@ -17,12 +17,44 @@
 </div>
 </head>
 <body>
-    <h1>Expociciones</h1>
-    <details><summary id="ActualesFuturas">ACTUALES</summary>
-    <h2>AGREGAR EXPOSICIONES</h2>
-    </details>
-    <details><summary id="ActualesFuturas">FUTURAS</summary>
-        <h2>AGREGAR EXPOSICIONES</h2>
-        </details>
+  
+
+        <div class="row">
+            <div class="column" onclick="openTab('b1');" style="background:grey;">ACTUALES</div>
+            <div id="b1" class="containerTab" style="display:none;background:grey">
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+                <div class="card">
+                    <img src="./Ana-Teresa-Barboza_Hilo-continuo-560x310.jpg" alt="" style="width: 300px; ">
+                    <h1>Tejer las piedras</h1>
+                    <p class="title">Ana Teresa Barboza</p>
+                    <p>MALBA</p>
+                    <p>08/04/2022-12/08/2022</p>
+                    <p><button><a href="https://www.malba.org.ar/evento/ana-teresa-barboza/">+</a>+</button></p>
+                  </div>
+                  <div class="card" class="">
+                    <img src="./abu dhabi.jpeg" alt="" style="width:300px; height:300px">
+                    <h1>Louvre</h1>
+                    <p class="title">Isabella Serrano Ortega</p>
+                    <p>MALBA</p>
+                    <p>08/04/2022-12/08/2022</p>
+                    <p><button><a href="https://www.malba.org.ar/evento/ana-teresa-barboza/">+</a>+</button></p>
+                  </div>
+              </div>
+
+
+            <div class="column" onclick="openTab('b2');" style="background:grey;">FUTURAS</div>
+            <div id="b2" class="containerTab" style="display:none;background:grey">
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+                <h2>FUTURAS</h2>
+                <p>Lorem ipsum..</p>
+              </div>
+    
+          </div>
+    
+          
+          
+         
+<script src="./javareal.js"></script> 
 </body>
+
 </html>
