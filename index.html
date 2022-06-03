@@ -17,7 +17,7 @@
          <a href="#Artistas"><li>Artistas</li></a> 
          <a href="#Museos"><li>Museos</li></a>
          <a href="#Nosotros"><li>Nosotros</li> </a>
-         <a href="#Clases"><li>Clases</li></a>
+         <a href="#Cursos"><li>Cursos</li></a>
          <a href="#Contacto"><li>Contacto </li></a>
         </ul></h2></div>
     
@@ -26,7 +26,7 @@
             <a style="margin-right: 16px;" href="#Artistas"><li>Artistas</li></a> 
             <a style="margin-right: 16px;" href="#Museos"><li>Museos</li></a> 
             <a style="margin-right: 16px;" href="#Nosotros"><li> Nosotros</li></a> 
-            <a style="margin-right: 16px;" href="#Clases"><li>Clases</li></a>
+            <a style="margin-right: 16px;" href="#Cursos"><li>Cursos</li></a>
             <a style="margin-right: 16px;" href="#Contacto"><li>Contacto</li></a>
         </menu>
     </div>
@@ -34,7 +34,8 @@
 </head>
 
 <body>
-<h2 id="Artistas">Artistas</h2>
+
+<h2 id="Artistas"> Artistas</h2>
 <table id="tablaArtistas">
     <td><div class="container">
       <img src="./Yves Klein.jpg" alt="" class="image">
@@ -76,39 +77,80 @@
 
 
 <h2 id="Museos">Museos</h2>
-<span id="expomalba1"><img src="./Malba 1.jpg" alt="" id="malba1"><br><img src="./malba 2.jpg" alt="" id="malba2"> </span>
-<span id="expomalba3"><img src="./malba3.jpg" alt="" id="malba3"></span>
-<span id="expomalba2">
-   <h3> MALBA <br>
-<ul id="tablamuseos"><li>Museo de Arte Latinoamericano de Buenos Aires</li> <li>INFO DEL MALBA</li><li>Av. Figueroa Alcorta 3415</li> 
+<div class="row">
+  <span id="expomalba1">
+    <img src="./Malba 1.jpg" alt="" width="300px"><img src="./malba 2.jpg" alt="" width="300px">
+  </span> 
+  <span id="expomalba3">
+    <img src="./malba3.jpg" alt="" id="malbapic">
+  </span>
+  <span id="expomalba2">
+    <h3> MALBA </h3>
+    <ul id="tablamuseos"><li>Museo de Arte Latinoamericano de Buenos Aires</li> <li>INFO DEL MALBA</li><li>Av. Figueroa Alcorta 3415</li> 
     <li>C1425CLA</li> <li>Buenos Aires, Argentina</li> <li>+54 11 4808 6500</li> <li>informes@malba.org.ar</li>
 <li><a href="./Exposiciones.html">Exposiciones Disponibles</a><br></li></ul> 
-
 <a href="https://www.malba.org.ar/" target="_blank">(Mas Informacion)</a>
-</h3> </span>
-<br>
-<span id="mnba1">
+  </span>
+</div>
+
+<div class="row">
+  <div class="column-left">
     <h3>MUSEO NACIONAL DE BELLAS ARTES</h3>
     <ul id="tablamuseos"><li>Museo de Arte Latinoamericano de Buenos Aires</li> <li>INFO DEL MALBA</li><li>Av. Figueroa Alcorta 3415</li> 
         <li>C1425CLA</li> <li>Buenos Aires, Argentina</li> <li>+54 11 4808 6500</li> <li>informes@malba.org.ar</li> <li>CAMBIAR TODO</li></ul>
-</span>
-<span id="mnba2"> <img src="./mnba.jpg" alt="" id="ba1"> <img src="./mnba2.jpg" alt="" id="ba2"></span>
-<br>
+  </div>
+  <div class="column.right">
+    <img src="./mnba.jpg" alt="" width="400px"> <img src="./mnba2.jpg" alt="" width="400px">
+  </div>
+</div>
 
-
-
-<span id="macba1">
-    <h3>MACBA</h3>
-    <ul id="tablamuseos"><li>Museo de Arte Contemporáneo de Buenos Aires</li> <li>INFO DEL MALBA</li><li>Av. Figueroa Alcorta 3415</li> 
-        <li>C1425CLA</li> <li>Buenos Aires, Argentina</li> <li>+54 11 4808 6500</li> <li>informes@malba.org.ar</li> <li>CAMBIAR TODO</li></ul>
-</span>
-<span id="macba2"> <img src="./museo-de-arte-contemporaneo.jpg" alt="" id="mac1" width="300px"> <img src="./macba af.jpg" alt="" id="mac2" width="300px"></span>
-
-<br>
+<div class="row">
+  <div class="column-left">
+    <img src="./macba af.jpg" alt="" width="400px"> <br> <img src="./museo-de-arte-contemporaneo.jpg" alt="" width="400px ">
+  </div>
+  <div class="column-right">
+    <h3>MUSEO DE ARTE CONTEMPORANEO DE BUENOS </h3>
+    <ul id="tablamuseos"><li>Museo de Arte Contemporáneo de Buenos </li> </ul>
+    </div>
+</div>
 
 <h2 id="Nosotros">Nosotros</h2>
 
-<h2 id="Clases">Clases</h2>
+<h2 id="Cursos">Cursos</h2>
+
+<button class="accordion">Principiantes</button>
+<div class="panel">
+  <div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'Abstracto')">Arte Abstacto</button>
+    <button class="tablinks" onclick="openCity(event, 'Fotografia')">Fotografia</button>
+    <button class="tablinks" onclick="openCity(event, 'Esculturas')">Esculturas</button>
+  </div>
+  
+  <div id="Abstracto" class="tabcontent">
+    <h3>London</h3>
+    <p>London is the capital city of England.</p>
+  </div>
+  
+  <div id="Fotografia" class="tabcontent">
+    <h3>Paris</h3>
+    <p>Paris is the capital of France.</p>
+  </div>
+  
+  <div id="Esculturas" class="tabcontent">
+    <h3>Tokyo</h3>
+    <p>Tokyo is the capital of Japan.</p>
+  </div>
+</div>
+
+<button class="accordion">Intermedios</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+
+<button class="accordion">Avanzados</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
 
 <h2 id="Contacto">Contacto</h2>
 

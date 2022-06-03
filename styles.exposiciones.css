@@ -26,30 +26,18 @@ menu{background-color:black;
      margin-top: 7px;
         }
 
+.active, .accordion:hover {
+  background-color: black;
+  height: 50px;
+}
 
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden; 
+}
 
-.column {
-    float: left;
-    width: 98%;
-    padding: 10px;
-    text-align: center;
-    font-size: 25px;
-    cursor: pointer;
-    color: white;
-  }
-  
-  .containerTab {
-    padding: 20px;
-    color: white;
-  }
-  
-
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
   .closebtn {
     float: right;
     color: black;
@@ -102,6 +90,6 @@ menu{background-color:black;
     width: 100%;
   }
 
-
+  
  
   

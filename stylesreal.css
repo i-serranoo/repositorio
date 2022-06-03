@@ -2,7 +2,17 @@ h1{
     color: (70,77,70);
     font-size: 65px; 
     font-family: "Consolas", sans-serif;
+    margin-left: 20px;
 }
+h2{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h3{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 
 ul{
     list-style-type: none;
@@ -60,6 +70,7 @@ html{
     scroll-padding-top: 70px;
 }
 
+/*ARTISTAS*/
 #Artistas{
 margin-left: 30px;
 font-size: 30px;
@@ -111,25 +122,28 @@ font-size: 30px;
     text-align: center;
   }
 
-#malba1,#malba2{
-    width: 300px;
-}
-#malba3{
+
+/*MUSEOS*/
+#malbapic{
     width: 350px;
     margin-left: 0px;
 }
 #expomalba1{
     float: left;
     width: 23%;
+    margin-bottom: 50px;
 }
 #expomalba2{
     float: right;
     width: 47%;
+    margin-bottom: 50px;
 }
 #expomalba3{
     float:none;
     width: auto;
+    margin-bottom: 50px;
 }
+
 #tablamuseos{
     text-align: left;
     font-size: 20px;
@@ -138,44 +152,76 @@ font-size: 30px;
     font-weight: normal;
 }
 
-#mnba1{
+  .column-right {
+    float: right;
     margin-top: 50px;
+    width: 50%;
+    margin-right: 10px;
+  }
+  .column-left{
+      float: left;
+      margin-top: 50px;
+      width: 50%;
+      margin-left: 10px;
+  }
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /*NOSOTROS- falta*/
+
+  /* CURSOS*/
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+
+  .tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  
+  .tab button {
+    background-color: inherit;
     float: left;
-    width: 50%;
-    margin-bottom: 100px;
-}
-#mnba2{
-    float: right;
-    margin-top: 70px;
-    width: 50%;
-    margin-right: 0px;
-    margin-bottom: 70px;
-}
-
-#ba1{
-    width: 400px;
-}
-#ba2{
-    width: 400px;
-}
-
-#macba1{
-    float: right;
-    width: 50%;
-    margin-top: 100px;
-}
-#macba2{
-    float: left;
-    width: 40%;
-    margin-top: 70px;
-    margin-left: 0px;
-}
-
-
-
-
-@media screen and (max-width: 480px) {
-    body {
-        background-image: url(./abu\ dhabi.jpeg);
-    }
-}
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
