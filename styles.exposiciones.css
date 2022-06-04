@@ -21,6 +21,12 @@ menu{background-color:black;
         text-align: center;
     }
 
+    h2{
+      font-size: 35px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      margin-left: 10px;
+  }
+
  #logo{
      width: 2.75%;
      margin-top: 7px;
