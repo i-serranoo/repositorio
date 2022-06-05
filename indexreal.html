@@ -148,6 +148,41 @@
           <li>bh</li> <li>cghc</li></ul></tr></td>
 </table>
 
+<button onclick="document.getElementById('id01').style.display='block'" class="inscribirse">Inscribirse</button>
+<div id="id01" class="caja">
+  <form class="caja-adentro" >
+    <span onclick="document.getElementById('id01').style.display='none'"
+    class="close" title="Close Modal">x</span>
+    <div class="container">
+      
+      <label>Nombre</label>
+      <input type="text" id="nombre" name="firstname" placeholder="Tu nombre...">
+    
+      <label>Apellido</label>
+      <input type="text" id="apellido" name="lastname" placeholder="Tu apellido..">
+    
+      <label>Nivel</label>
+      <select id="nivel" name="country">
+        <option value="principiante">Principiante</option>
+        <option value="intermedio">Intermedio</option>
+        <option value="avanzado">Avanzados</option>
+      </select>
+
+      <label>Curso</label>
+      <select id="curso" name="country">
+        <option value="principiante">Principiante</option>
+        <option value="intermedio">Intermedio</option>
+        <option value="avanzado">Avanzados</option>
+      </select>
+    
+    </div>
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelar">Cancelar</button>
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="enviar">Enviar</button>
+    </div>
+  </form>
+</div>
+ 
 
 <footer>
 

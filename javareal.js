@@ -31,3 +31,13 @@
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " active";
   }
+
+//INCRIPCION
+let caja = document.getElementById('id01');
+// si apretas en cualquier lugar fuera de la caja,  sale de la inscripcion
+window.onclick = function(event) {
+  if (event.target == caja) {
+    caja.style.display = "none";
+  }
+}
+

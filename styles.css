@@ -172,3 +172,84 @@ td{border: 1px solid white;}
     display: none;
     overflow: hidden;
   }
+
+
+
+
+  /*INSCRIPCION*/
+  .inscribirse {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .inscribirse:hover {
+    opacity:1;
+  }
+
+  .container {
+    padding: 16px;
+    margin: auto;
+  }
+
+.caja {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4);
+  padding-top: 60px;
+}
+
+.caja-adentro  {
+  background-color: #fefefe;
+  margin: auto;
+  border: 1px solid #888;
+  width: 50%;
+  height: 80%;
+}
+
+#nombre, #apellido, #curso, #nivel {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.enviar {
+  background-color: #04AA6D;
+  padding: 14px 20px;  
+}
+
+.cancelar {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+.enviar:hover, .cancelar:hover {
+  opacity: 3;
+}
+
+.close {
+  position: absolute;
+  right: 370px;
+  top: 75px;
+  font-size: 25px;
+  font-family: Arial, sans-serif;
+  color: black;
+}
+.close:hover, .close:focus {
+  cursor: pointer;
+}
