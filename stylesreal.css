@@ -12,6 +12,7 @@ h2{
 h3{
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 
@@ -74,9 +75,8 @@ html{
 /*ARTISTAS*/
 #tablaArtistas{
     text-align:center;
-    margin-left: 15%;
-    margin-right: 15%;
-    font-size: 20px
+    margin: auto;
+    font-size: 20px;
 }
 
 .container {
@@ -120,56 +120,29 @@ html{
 
 
 /*MUSEOS*/
-#malbapic{
-    width: 350px;
-    margin-left: 0px;
+
+#tablamuseos{
+  margin: 30px;
+  text-align: left;
+  border-collapse: separate;
+  border: 10px;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-#expomalba1{
-    float: left;
-    width: 23%;
-    margin-bottom: 50px;
-}
-#expomalba2{
-    float: right;
-    width: 47%;
-    margin-bottom: 50px;
-}
-#expomalba3{
-    float:none;
-    width: auto;
-    margin-bottom: 50px;
+#derecha{
+  text-align: right;
 }
 
-#listamuseos{
-    text-align: left;
-    font-size: 20px;
-    line-height: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: normal;
-    margin-top: 0px;
-}
 
-  .column-right {
-    float: right;
-    margin-top: 40px;
-    width: 40%;
-    margin-right: 10px;
-  }
-  .column-left{
-      float: left;
-      margin-top: 40px;
-      width: 50%;
-      margin-left: 10px;
-  }
-  
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-    margin-bottom: 10px;
-  }
 
   /* CURSOS*/
+#oleoypastel{
+  height: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .accordion {
     background-color: #eef;
     color: #444;
@@ -244,7 +217,7 @@ html{
   opacity:1;
 }
 
-.container {
+.cont {
   padding: 16px;
   margin: auto;
 }
