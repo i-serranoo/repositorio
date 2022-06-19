@@ -1,37 +1,48 @@
-.menu{
+  .menu{
     position: -webkit-sticky; 
     position: sticky;
     top: 0;
-    margin: -4px;
+    z-index: 1;
+    width: auto;
+    margin-left: -4px;
+    margin-right: -4px;
+    text-decoration: none;
   }
 
-menu{background-color:black;
+menu{
+    background-color:black;
     display: block;
     width: auto;
     height: 50px;
     background-position: fixed;
 }
     
-    menu>a>li{
+  .menu a{
         display: inline;
         color: white;
         font-size: 25px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-weight: normal;
         margin-bottom: 20px;
-        text-align: center;
+        text-align: center; 
+        text-decoration: none;
+        margin-right: 16px;
     }
+
+menu a:hover {
+      opacity: 0.7;
+    }
+
+    #logo{
+      width: 2.75%;
+      margin-top: 7px;
+         }
 
     h2{
       font-size: 35px;
       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
       margin-left: 10px;
   }
-
- #logo{
-     width: 2.75%;
-     margin-top: 7px;
-        }
 
   .accordion{
     height: 60px;
@@ -40,7 +51,7 @@ menu{background-color:black;
 
 .active, .accordion:hover {
   background-color: black;
-  height: 80px;
+  height: 75px;
 }
 
 .panel {
@@ -101,6 +112,39 @@ menu{background-color:black;
     color: black;
     width: 100%;
   }
+
+
+
+  #footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 18px;
+    left: 0;
+    bottom: 0;
+  }
+  .row{
+    background-color: black;
+    columns: 3;
+  }
+  
+  .col1{
+    width: 30%;
+    padding: 15px;
+  }
+  
+  .col2{
+    width: 30%;
+    padding: 15px;
+  }
+  
+  .col3{
+    width: 30%;
+    padding: 15px;
+  }
+  
+  
 
   
  
