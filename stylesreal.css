@@ -46,6 +46,7 @@ ul{
     width: auto;
     margin-left: -4px;
     margin-right: -4px;
+    text-decoration: none;
   }
 
 menu{background-color:black;
@@ -59,7 +60,7 @@ menu{background-color:black;
     menu>a>li{
         display: inline;
         color: white;
-        font-size: 23px;
+        font-size: 25px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-weight: normal;
         margin-bottom: 20px;
@@ -69,6 +70,13 @@ menu{background-color:black;
  #logo{
      width: 2.75%;
      margin-top: 7px;
+        }
+  .menu a{
+    text-decoration: none;
+  }
+
+    menu a:hover {
+          opacity: 0.7;
         }
 
 html{
@@ -125,16 +133,24 @@ html{
 /*MUSEOS*/
 
 #tablamuseos{
-  margin: 30px;
-  text-align: left;
+  margin: 20px;
+  text-align: center;
   border-collapse: separate;
   border: 10px;
   font-size: 20px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #3F3F3F;
+  padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #f5f5f5;
 }
 #derecha{
   text-align: right;
+}
+
+#izqu{
+text-align: left;
 }
 
 
@@ -147,8 +163,8 @@ html{
 }
 
 .accordion {
-    background-color: grey;
-    color: black;
+    background-color: #b5b5b5;
+    color: #3f3f3f;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -171,7 +187,7 @@ html{
   .tab {
     overflow: hidden;
     border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    background-color: #e6e6e6;
   }
 
   .tab button {
@@ -206,7 +222,7 @@ html{
 /*INSCRIPCION*/
 .inscribirse {
   background-color: black;
-  color: black;
+  color: white;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
@@ -239,7 +255,7 @@ html{
 }
 
 .caja-adentro  {
-  background-color: #e6e6e6;
+  background-color: #fff;
   margin: auto;
   border: 1px solid #888;
   width: 50%;
@@ -292,4 +308,34 @@ html{
 }
 .cerrar:hover, .cerrar:focus {
   cursor: pointer;
+}
+
+
+
+#footer{
+  background-color: black;
+  color: white;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  margin-top: 20px;
+}
+.row{
+  background-color: black;
+  columns: 3;
+}
+
+.col1{
+  width: 30%;
+  padding: 20px;
+}
+
+.col2{
+  width: 30%;
+  padding: 20px;
+}
+
+.col3{
+  width: 30%;
+  padding: 20px;
 }

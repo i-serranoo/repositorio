@@ -294,3 +294,17 @@ a:hover {
   margin: 10px;
   text-align: center;
 }
+
+
+
+.col1{
+  float: left;
+  width: 30%;
+  display: inline;
+}
+
+.col2{
+  float: right;
+  width: 30%;
+  display: inline;
+}
