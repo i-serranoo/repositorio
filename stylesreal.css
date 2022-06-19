@@ -44,6 +44,8 @@ ul{
     top: 0;
     z-index: 1;
     width: auto;
+    margin-left: -4px;
+    margin-right: -4px;
   }
 
 menu{background-color:black;
@@ -129,11 +131,11 @@ html{
   border: 10px;
   font-size: 20px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #3F3F3F;
 }
 #derecha{
   text-align: right;
 }
-
 
 
   /* CURSOS*/
@@ -145,8 +147,8 @@ html{
 }
 
 .accordion {
-    background-color: #eef;
-    color: #444;
+    background-color: grey;
+    color: black;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -203,8 +205,8 @@ html{
 
 /*INSCRIPCION*/
 .inscribirse {
-  background-color: #04AA6D;
-  color: white;
+  background-color: black;
+  color: black;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
@@ -215,7 +217,7 @@ html{
 }
 
 .inscribirse:hover {
-  opacity:1;
+  opacity: 0.8;
 }
 
 .cont {
@@ -237,13 +239,13 @@ html{
 }
 
 .caja-adentro  {
-  background-color: #fefefe;
+  background-color: #e6e6e6;
   margin: auto;
   border: 1px solid #888;
   width: 50%;
 }
 
-#nombre, #apellido, #curso, #nivel {
+#nombre, #apellido, #curso, #e-mail  {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -255,7 +257,7 @@ html{
 
 .enviar {
   width: 100%;
-  background-color: #04AA6D;
+  background-color: black;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -266,7 +268,7 @@ html{
 
 .cancelar {
   padding: 14px 20px;
-  background-color: #f44336;
+  background-color: red;
   width: 100%;
   color: black;
   padding: 14px 20px;
@@ -277,7 +279,7 @@ html{
 }
 
 .enviar:hover, .cancelar:hover {
-  opacity: 3;
+  opacity: 0.80;
 }
 
 .cerrar {
