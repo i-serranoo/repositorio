@@ -145,6 +145,26 @@ menu a:hover {
     width: 100%;
   }
 
+  .fr-ea{
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 6px 2px;
+    border-radius: 12px;
+  }
+  .fr-ea a{
+    text-decoration: none;
+    color: white;
+  }
+  .fr-ea a:hover{
+    text-decoration: underline;
+  }
+
 /*VIDSITAS GUIADAS*/
 .col-visitas{
   float: left;
