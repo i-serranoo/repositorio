@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exposiciones</title>
+    <title>Exposiciones-allebasi</title>
+    <link rel="icon" type="image/x-icon" href="./logo.jpg">
     <link rel="stylesheet" href="styles.exposiciones.css">
     <div class="menu"><menu class="menu">
         <a href="./index.html" ><img src="./logo.jpg" alt="" id="logo"></a>
-        <a href="index.html#Artistas">Artistas</a> 
         <a href="index.html#Museos">Museos</a> 
+        <a href="index.html#Artistas">Artistas</a> 
         <a href="./index.html#Cursos">Cursos</a>
+        <a href="./index.html#Nosotros">Nosotros</a>
         <a href="index.html#Contacto">Contacto</a>
     </menu>
 </div>
@@ -18,10 +20,11 @@
 <body>
 
   <h2>Exposiciones</h2>
-          <button class="accordion">ACTUALES</button>
+     <button class="accordion" >ACTUALES</button>
           <div class="panel">
-            <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
-            <div class="card">
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span> <br>
+            <div class="row">
+              <div class="card">
               <img src="./escultutra.jpg" alt="" style="width: 300px; ">
               <h1>Esculturas del renacimiento vol.III</h1>
               <p class="title">Carolina Lasalvia</p>
@@ -58,38 +61,18 @@
               <p> <a href="https://www.malba.org.ar/evento/ana-teresa-barboza/"> <button>+</button> </a> </p>
             </div>
           </div>
-          
-          <button class="accordion">FUTURAS</button>
-          <div class="panel">
-            <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
-            <div class="card">
-              <img src="./escultutra.jpg" alt="" style="width: 300px; ">
-              <h1>Esculturas del renacimiento vol.III</h1>
-              <p class="title">Carolina Lasalvia</p>
-              <p>MALBA</p>
-              <p>Esculturas</p>
-              <p>08/04/2022-12/08/2022</p>
-              <p><a href="https://www.malba.org.ar/evento/ana-teresa-barboza/"><button>+</button></a> </p>
-            </div>
-            <div class="card" class="">
-              <img src="./abu dhabi.jpeg" alt="" style="width:300px;">
-              <h1>Desde Afuera</h1> <br>
-              <p class="title">Isabella Serrano</p>
-              <p>MALBA</p>
-              <p>Fotografia</p>
-              <p>14/05/2022-12/09/2022</p>
-              <p> <a href="https://www.malba.org.ar/evento/ana-teresa-barboza/"> <button>+</button> </a> </p>
-            </div>
-            <div class="card" class="">
-              <img src="./arte abstracto.jpg" alt="" style="width: 300px;">
-              <h1>cinco al cubo</h1> <br>
-              <p class="title">Lucila Nicora</p>
+            
+            <div class="row">
+            <div class="card2" class="">
+              <img src="./impresionismo3.jpg" alt="" style="width:300px;">
+              <h1>Las pequeñas cosas de la vida</h1>
+              <p class="title">Anouk de Laferrere</p>
               <p>Museo Nacional de Bellas Artes</p>
-              <p>Arte Abstracto</p>
+              <p>Impresionismo</p>
               <p>14/05/2022-12/09/2022</p>
               <p> <a href="https://www.malba.org.ar/evento/ana-teresa-barboza/"> <button>+</button> </a> </p>
             </div>
-            <div class="card" class="">
+            <div class="card2" class="">
               <img src="./impresionismo3.jpg" alt="" style="width:300px;">
               <h1>Las pequeñas cosas de la vida</h1>
               <p class="title">Anouk de Laferrere</p>
@@ -99,39 +82,66 @@
               <p> <a href="https://www.malba.org.ar/evento/ana-teresa-barboza/"> <button>+</button> </a> </p>
             </div>
           </div>
-
+        </div>
+          <br>
+        <button class="accordion">FUTURAS</button>
+          <div class="panel">
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span> <br>
+          <div class="row">
+            <div class="card3">
+              <img src="./escultutra.jpg" alt="" style="width: 300px; ">
+              <h1>Dia Internacional de la Yoga</h1>
+              <p class="title">Carolina Lasalvia</p>
+              <p>Abu Dhabi, Emiratos Arabes</p>
+              <p>Yoga</p>
+              <p>22/06/2022</p>
+              <p><a href="https://www.malba.org.ar/evento/ana-teresa-barboza/"><button>+</button></a> </p>
+            </div>
+            <div class="card3" class="">
+              <img src="./abu dhabi.jpeg" alt="" style="width:300px;">
+              <h1>Desde Afuera</h1> <br>
+              <p class="title">Isabella Serrano</p>
+              <p>MALBA</p>
+              <p>Fotografia</p>
+              <p>14/05/2022-12/09/2022</p>
+              <p> <a href="https://www.malba.org.ar/evento/ana-teresa-barboza/"> <button>+</button> </a> </p>
+            </div>
+            <div class="card3" class="">
+              <img src="./arte abstracto.jpg" alt="" style="width: 300px;">
+              <h1>cinco al cubo</h1> <br>
+              <p class="title">Lucila Nicora</p>
+              <p>Museo Nacional de Bellas Artes</p>
+              <p>Arte Abstracto</p>
+              <p>14/05/2022-12/09/2022</p>
+              <p> <a href="https://www.malba.org.ar/evento/ana-teresa-barboza/"> <button>+</button> </a> </p>
+            </div>
+          </div>  
           </div>
 
-          <footer id="footer"><h2 id="Contacto">Contacto</h2>
 
-            <div class="row">
-              <div class="col1">
-                  <h4>ALLEBASI</h4>
-              </div>
-              <div class="col2">
-                <p>Iguazú 341, C1437 CABA</p>
-              </div>
-              <div class="col3">
-                <a href="https://www.instagram.com/">
-                  <img src="./instagram.png" alt="" width="23%">
-                </a>
-                <a href="https://www.instagram.com/">
-                  <img src="./facebook.png" alt="" width="23%">
-                </a>
-                <a href="https://www.instagram.com/">
-                  <img src="./twitter.png" alt="" width="23%">
-                </a>
-                <a href="https://www.instagram.com/">
-                  <img src="./youtube.png" alt="" width="23%">
-                </a>
-              </div>
-            </div>
-          
-          
-          </footer>
+<h2>Visistas Guiadas</h2>
+<br><br><br><br>
     
           
-          
+<footer>
+  <h2 id="Contacto">Contacto</h2>
+    <div class="contact">
+      <a href="https://www.instagram.com/">
+        <img src="./logo-instagram.jpg" alt="" width="3%">
+      </a>
+      <a href="https://www.instagram.com/">
+        <img src="./logo-facebook.jpg" alt="" width="3%">
+      </a>
+      <a href="https://www.instagram.com/">
+        <img src="./logo-twitter.jpg" alt="" width="3%">
+      </a>
+      <a href="https://www.instagram.com/">
+        <img src="./logo-youtube.jpg" alt="" width="3%">
+      </a>
+  </div>
+
+
+</footer>
          
 <script src="./javareal.js"></script> 
 </body>
