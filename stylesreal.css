@@ -293,6 +293,9 @@ html{
     font-size: 20px;
   }
 
+  #tablasTalleres{
+    padding-left: 30px;
+  }
 
 /*INSCRIPCION*/
 .inscribirse {
